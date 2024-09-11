@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>abreme</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querido Janpier</strong>
+                        <p>¡Felices once meses juntos!, no sabes los bonitos recuerdos que he podido crear contigo, espero que siga siendo mucho más tiempo juntos que podamos pasar, te quiero mucho muchote y quiero que sepas que eres muy importante para mi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+    </script> 
+</body>
+</html>
